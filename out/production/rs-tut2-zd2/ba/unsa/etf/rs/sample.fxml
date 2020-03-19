@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="CENTER" hgap="10" prefHeight="0.0" prefWidth="177.0" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ba.unsa.etf.rs.Test">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints maxWidth="78.4" minWidth="75.4" prefWidth="78.4" />
+      <ColumnConstraints maxWidth="143.8" minWidth="140.8" prefWidth="140.8" />
+      <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <TextField fx:id="inputText" alignment="TOP_RIGHT" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="27.0" prefWidth="127.0" GridPane.columnIndex="3" GridPane.columnSpan="1" GridPane.halignment="RIGHT" />
+   <Button fx:id="button" alignment="TOP_LEFT" mnemonicParsing="false" onMouseClicked="#ispisiBrojeve" prefHeight="29.0" prefWidth="54.0" text="Click" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+   <TextArea fx:id="text" prefHeight="79.0" prefWidth="238.0" text=" " GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="2" />
+</GridPane>
